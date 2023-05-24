@@ -1,3 +1,11 @@
-h1 {
-  text-align: center;
+.products {
+  display: flex;
+  flex-wrap: wrap;
+}
+.product-card {
+  padding: 2%;
+  flex: 1 16%; /* so child elements can use flexbox stuff too! */
+}
+.product-image img {
+  max-width: 25%;
 }
